@@ -85,11 +85,11 @@ def list_2D():
 
     # Get the item at the last row and last column of A.
 
-    a = [item for index , item in enumerate(last_column ) if index==2][0]
+    a = A[2][2]
 
     # Get the item at row 2 and column 1 of A.
 
-    b = [item[0] for index,item in enumerate(A) if index==1][0]
+    b = A[1][0]
 
 
     return A,last_column, a, b
